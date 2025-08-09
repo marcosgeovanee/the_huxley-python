@@ -1,5 +1,5 @@
 temperatura = float(input())
-resposta = input()
+resposta = input().upper()
 
 if resposta != "S" and resposta != "N":
     print("Erro")
@@ -15,4 +15,5 @@ else:
     elif temperatura < 37 and resposta == "N":
         print("Liberado")
     elif temperatura < 37 and resposta == "S":
+
         print("Exames Basicos")
